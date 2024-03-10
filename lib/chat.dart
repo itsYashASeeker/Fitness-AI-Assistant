@@ -29,7 +29,7 @@ class ChatApp extends StatelessWidget {
     return MaterialApp(
       title: 'Fitness Assistant',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.orange),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueAccent),
         useMaterial3: true,
       ),
       home: const MyChatApp(title: 'Chat with Fitness AI Assistant | chat'),
@@ -63,7 +63,7 @@ class _MyChatApp extends State<MyChatApp> {
       onSendPressed: _handleSendPressed,
       user: _user,
       theme: const DarkChatTheme(
-        inputBackgroundColor: Colors.grey,
+        inputBackgroundColor: Colors.blueAccent,
       ),
     ),
   );
