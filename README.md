@@ -1,4 +1,4 @@
-# mlh
+# Fitness AI Assistant
 
 A new Flutter project.
 
